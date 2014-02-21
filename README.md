@@ -2,7 +2,20 @@
 
 This is a script that allows you to view your Dropcams from Hubot.
 
-## Configuration
+## Commands
+
+- `hubot dropcam list`
+	- Lists all Dropcams found on the account, and their online/offline status
+- `hubot dropcam me`
+	- Gets the image for the first Dropcam on the account
+- `hubot dropcam me {camera}`
+	- Gets the image for the Dropcam with the name `{camera}`
+
+## Installation
+
+(Coming soon)
+
+### Configuration
 
 Depending on which environment variables you set hubot-dropcam will behave differently.
 
