@@ -13,7 +13,10 @@ This is a script that allows you to view your Dropcams from Hubot.
 
 ## Installation
 
-(Coming soon)
+- Add to `package.json` dependencies
+	- '"hubot-dropcam": "^1.0"'
+- Add to `external-scripts.json`
+	- `"hubot-dropcam"`
 
 ### Configuration
 
