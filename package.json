@@ -1,0 +1,28 @@
+{
+  "name": "hubot-dropcam",
+  "description": "Hubot script for Dropcam",
+
+  "version": "1.0.0",
+
+  "author": "RSully",
+  "license": "MIT",
+
+  "homepage": "https://github.com/RSully/hubot-dropcam",
+  "bugs": {
+    "url": "https://github.com/RSully/hubot-dropcam/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RSully/hubot-dropcam.git"
+  },
+  "keywords": [
+    "hubot",
+    "dropcam"
+  ],
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
