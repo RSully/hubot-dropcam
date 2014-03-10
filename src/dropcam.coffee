@@ -188,7 +188,7 @@ module.exports = (robot) ->
 
   robot.respond /(dropcam)(( )(me))(( )(.*))?/i, (msg) ->
 
-    dcCameraTitle = msg.match[7]
+    dcCameraTitle = msg.match[7] or process.env.HUBOT_DROPCAM_DEFAULT_CAMERA
 
     robot.logger.info "Dropcam image requested by #{JSON.stringify(msg.message.user)}"
 
