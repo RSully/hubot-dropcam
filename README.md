@@ -28,7 +28,7 @@ Depending on which environment variables you set hubot-dropcam will behave diffe
 - `HUBOT_DROPCAM_BLACKLIST`
 	- A comma-separated list of Dropcam UUIDs to ignore.
 - `HUBOT_DROPCAM_DEFAULT_CAMERA`
-	- If set, specified Dropcam will be used in `hubot dropcam me` command.
+	- If set, specified Dropcam UUID will be used in `hubot dropcam me` command.
 - `DEBUG`
 	- If set, hubot-dropcam will be a bit more noisy (*insecure*)
 - `HUBOT_DROPCAM_S3_ACCESS_KEY_ID`, `HUBOT_DROPCAM_S3_SECRET_ACCESS_KEY`, `HUBOT_DROPCAM_S3_BUCKET`
