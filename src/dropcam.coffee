@@ -237,7 +237,7 @@ module.exports = (robot) ->
         # Check blacklist
         if dcUuidIsBlacklisted uuid
           continue
-        if not dcCameraTitle and not dcDefaultCamera or uuid is dcDefaultCamera or camera.title.toLowerCase() is dcCameraTitle.toLowerCase()
+        if (not dcCameraTitle and not dcDefaultCamera) or (uuid is dcDefaultCamera) or (camera.title.toLowerCase() is dcCameraTitle.toLowerCase())
           dcCam = camera
           break
       unless dcCam
